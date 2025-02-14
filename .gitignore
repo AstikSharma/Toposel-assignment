@@ -1,0 +1,20 @@
+# Ignore environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Ignore dependencies (for Node.js projects)
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Ignore build files
+dist/
+out/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
